@@ -1,0 +1,27 @@
+*{
+    margin: 0; padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #a11c1c;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+}
+
+.um{
+    width: 50%; height: 25%;
+    background-color: aquamarine;
+}
+
+.um swiper-slide {
+    align-self: center;
+    width: 50%; height: 70%;
+    border: solid 1.5px black;
+    background-color: aqua;
+}
+
+.dois{
+    width: 50%; height: 25%;
+    background-color: aqua;
+}
